@@ -67,7 +67,7 @@
     <main>
         <div class="container-fluid">
             <!-- ROW 0 -->
-            <div class="row"
+            <div class="row py-5"
                 style="background-image: url(./img/jumbo.png); width: 100%; height: 100vh; background-repeat: no-repeat; background-size: cover;">
                 <div class="col-3"></div>
                 <div class="col text-center text-white">
@@ -88,7 +88,7 @@
             <div class="row py-5">
                 <div class="col-2"></div>
                 <div class="col-5">
-                    <img src="./img/item1.svg" alt="img-1" width="100%">
+                    <img src="./img/item1.svg" alt="img-1" class="img-fluid">
                 </div>
                 <div class="col">
                     <h2><b>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</b></h2>
@@ -99,7 +99,7 @@
             </div>
 
             <!-- ROW 2 -->
-            <div class="row bg-light">
+            <div class="row bg-light py-5">
                 <div class="col-2"></div>
                 <div class="col-3">
                     <h2><b>Dove trovarsi è felice</b></h2>
@@ -108,7 +108,7 @@
                         laudantium ex corporis aspernatur nemo.</p>
                 </div>
                 <div class="col">
-                    <img src="./img/item2.svg" alt="img-1" width="100%">
+                    <img src="./img/item2.svg" alt="img-1" class="img-fluid">
                 </div>
                 <div class="col-2"></div>
             </div>
@@ -116,7 +116,7 @@
             <div class="row py-5">
                 <div class="col-2"></div>
                 <div class="col-5">
-                    <img src="./img/item3.svg" alt="img-1" width="100%">
+                    <img src="./img/item3.svg" alt="img-1" class="img-fluid">
                 </div>
                 <div class="col">
                     <h2><b>Da pochi a un fandom</b></h2>
@@ -131,14 +131,20 @@
 
                 <div class="col text-center">
                     <h1><b>Tecnologia affidabile per tenersi in contatto</b></h1>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat incidunt veritatis laborum sit cupiditate facilis beatae modi provident quis amet, et itaque excepturi, rerum optio labore corporis accusantium alias ab!</p>
-                    <img src="./img/item4-big.svg" alt="big-image">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat incidunt veritatis laborum sit
+                        cupiditate facilis beatae modi provident quis amet, et itaque excepturi, rerum optio labore
+                        corporis accusantium alias ab!</p>
+                    <img src="./img/item4-big.svg" alt="big-image" class="img-fluid">
 
-                    <span style="background-image: url(./img/stars.svg); width: 100%; height: 100vh; background-repeat: no-repeat; background-size: cover;" class="py-5">
-                    <h4><b>Pronto a iniziare l'avventura?</b></h4></span>
-                    <button class="btn rounded-pill text-white" style="background-color: rgb(114, 137, 218)">Scarica per il Mac</button>
+                    <div
+                        style="background-image: url(./img/stars.svg); background-size: contain; background-repeat: none; background-position: center;">
+                        <h4 class="py-5 img-fluid"><b>Pronto a iniziare l'avventura?</b></h4>
+                        <!-- <img src="./img/stars.svg" alt="stars-background" > -->
+                        <button class="btn rounded-pill text-white" style="background-color: rgb(114, 137, 218)">Scarica
+                            per il Mac</button>
+                    </div>
                 </div>
-                
+
                 <div class="col-2"></div>
             </div>
         </div>
